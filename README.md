@@ -12,9 +12,10 @@ Welcome to the Java Eclipse Practice Repository! This repository is designed to 
 ### Setup
 
 1. **Clone the Repository**
-   ```bash
+   ```
    git clone https://github.com/yourusername/java-eclipse-practice.git
    cd java-eclipse-practice
+   ```
 
 
 
