@@ -1,3 +1,6 @@
+
+I have removed module.info.java file to remove errors.
+
 # Java Eclipse Practice Repository
 
 Welcome to the Java Eclipse Practice Repository! This repository is designed to help you practice and improve your Java programming skills using Eclipse IDE.
