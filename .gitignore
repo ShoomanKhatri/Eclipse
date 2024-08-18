@@ -2,6 +2,9 @@
 .classpath
 .project
 .settings/
+bin/
+target/
+build/
 
 # Java specific files
 *.class
@@ -26,16 +29,8 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-# Eclipse specific files
-.classpath
-.project
-.settings/
-bin/
-target/
-build/
 
 # IntelliJ IDEA specific files
 .idea/
@@ -57,7 +52,39 @@ nbdist/
 
 # macOS specific files
 .DS_Store
+._*
 
 # Windows specific files
 Thumbs.db
 /.metadata/
+*.bat
+
+# Maven specific files
+.mvn/
+!**/src/main/**/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/.mvn/wrapper/maven-wrapper.properties
+!**/src/main/**/.mvn/wrapper/maven-wrapper.sh
+
+# Gradle specific files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local environment specific files
+.env
+
+# Node specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# JRebel specific files
+rebel.xml
+
+# AWS specific files
+.aws/
