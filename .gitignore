@@ -60,3 +60,4 @@ nbdist/
 
 # Windows specific files
 Thumbs.db
+/.metadata/
